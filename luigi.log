@@ -1,0 +1,149 @@
+2023-04-28 18:29:04,311 INFO luigi-interface : Loaded ['luigi.cfg']
+2023-04-28 18:29:04,311 INFO luigi-interface : Loaded ['luigi.cfg']
+2023-04-28 18:29:04,332 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-28 18:29:04,332 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-04-28 18:29:19,337 INFO luigi : logging configured by default settings
+2023-04-28 18:29:19,363 DEBUG luigi-interface : Checking if MyTask(name=Bob) is complete
+2023-04-28 18:29:19,363 DEBUG luigi-interface : Checking if MyTask(name=Bob) is complete
+2023-04-28 18:29:19,365 INFO luigi-interface : Informed scheduler that task   MyTask_Bob_cfadfe6bb7   has status   DONE
+2023-04-28 18:29:19,365 INFO luigi-interface : Informed scheduler that task   MyTask_Bob_cfadfe6bb7   has status   DONE
+2023-04-28 18:29:19,365 INFO luigi-interface : Done scheduling tasks
+2023-04-28 18:29:19,365 INFO luigi-interface : Done scheduling tasks
+2023-04-28 18:29:19,365 INFO luigi-interface : Running Worker with 1 processes
+2023-04-28 18:29:19,365 INFO luigi-interface : Running Worker with 1 processes
+2023-04-28 18:29:19,365 DEBUG luigi-interface : Asking scheduler for work...
+2023-04-28 18:29:19,365 DEBUG luigi-interface : Asking scheduler for work...
+2023-04-28 18:29:19,366 DEBUG luigi.scheduler : Starting pruning of task graph
+2023-04-28 18:29:19,366 DEBUG luigi.scheduler : Done pruning task graph
+2023-04-28 18:29:19,366 DEBUG luigi-interface : Done
+2023-04-28 18:29:19,366 DEBUG luigi-interface : Done
+2023-04-28 18:29:19,366 DEBUG luigi-interface : There are no more tasks to run at this time
+2023-04-28 18:29:19,366 DEBUG luigi-interface : There are no more tasks to run at this time
+2023-04-28 18:29:19,366 INFO luigi-interface : Worker Worker(salt=3480120143, workers=1, host=192-168-0-188.rdsnet.ro, username=romulus, pid=97747) was stopped. Shutting down Keep-Alive thread
+2023-04-28 18:29:19,366 INFO luigi-interface : Worker Worker(salt=3480120143, workers=1, host=192-168-0-188.rdsnet.ro, username=romulus, pid=97747) was stopped. Shutting down Keep-Alive thread
+2023-04-28 18:29:19,368 INFO luigi-interface : 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 complete ones were encountered:
+    - 1 MyTask(name=Bob)
+
+Did not run any tasks
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2023-04-28 18:29:19,368 INFO luigi-interface : 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 complete ones were encountered:
+    - 1 MyTask(name=Bob)
+
+Did not run any tasks
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2023-04-28 18:29:19,369 INFO werkzeug : 127.0.0.1 - - [28/Apr/2023 18:29:19] "GET /run-task?name=Bob HTTP/1.1" 200 -
+2023-04-28 18:34:42,651 INFO luigi-interface : Loaded ['luigi.cfg']
+2023-04-28 18:34:42,651 INFO luigi-interface : Loaded ['luigi.cfg']
+2023-04-28 18:34:42,674 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-28 18:34:42,674 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-04-28 18:34:45,998 INFO luigi : logging configured by default settings
+2023-04-28 18:34:46,019 DEBUG luigi-interface : Checking if MyTask(name=Bob) is complete
+2023-04-28 18:34:46,019 DEBUG luigi-interface : Checking if MyTask(name=Bob) is complete
+2023-04-28 18:34:46,021 INFO luigi-interface : Informed scheduler that task   MyTask_Bob_cfadfe6bb7   has status   DONE
+2023-04-28 18:34:46,021 INFO luigi-interface : Informed scheduler that task   MyTask_Bob_cfadfe6bb7   has status   DONE
+2023-04-28 18:34:46,021 INFO luigi-interface : Done scheduling tasks
+2023-04-28 18:34:46,021 INFO luigi-interface : Done scheduling tasks
+2023-04-28 18:34:46,021 INFO luigi-interface : Running Worker with 1 processes
+2023-04-28 18:34:46,021 INFO luigi-interface : Running Worker with 1 processes
+2023-04-28 18:34:46,022 DEBUG luigi-interface : Asking scheduler for work...
+2023-04-28 18:34:46,022 DEBUG luigi-interface : Asking scheduler for work...
+2023-04-28 18:34:46,022 DEBUG luigi.scheduler : Starting pruning of task graph
+2023-04-28 18:34:46,022 DEBUG luigi.scheduler : Done pruning task graph
+2023-04-28 18:34:46,022 DEBUG luigi-interface : Done
+2023-04-28 18:34:46,022 DEBUG luigi-interface : Done
+2023-04-28 18:34:46,022 DEBUG luigi-interface : There are no more tasks to run at this time
+2023-04-28 18:34:46,022 DEBUG luigi-interface : There are no more tasks to run at this time
+2023-04-28 18:34:46,022 INFO luigi-interface : Worker Worker(salt=9127417051, workers=1, host=192-168-0-188.rdsnet.ro, username=romulus, pid=98290) was stopped. Shutting down Keep-Alive thread
+2023-04-28 18:34:46,022 INFO luigi-interface : Worker Worker(salt=9127417051, workers=1, host=192-168-0-188.rdsnet.ro, username=romulus, pid=98290) was stopped. Shutting down Keep-Alive thread
+2023-04-28 18:34:46,025 INFO luigi-interface : 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 complete ones were encountered:
+    - 1 MyTask(name=Bob)
+
+Did not run any tasks
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2023-04-28 18:34:46,025 INFO luigi-interface : 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 complete ones were encountered:
+    - 1 MyTask(name=Bob)
+
+Did not run any tasks
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2023-04-28 18:34:46,026 INFO werkzeug : 127.0.0.1 - - [28/Apr/2023 18:34:46] "GET /run-task?name=Bob HTTP/1.1" 200 -
+2023-04-28 18:37:18,915 INFO luigi-interface : Loaded ['luigi.cfg']
+2023-04-28 18:37:18,915 INFO luigi-interface : Loaded ['luigi.cfg']
+2023-04-28 18:37:18,924 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-28 18:37:18,924 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-04-28 18:37:24,753 INFO werkzeug : 127.0.0.1 - - [28/Apr/2023 18:37:24] "GET / HTTP/1.1" 200 -
+2023-04-28 18:37:30,523 INFO luigi : logging configured by default settings
+2023-04-28 18:37:30,539 DEBUG luigi-interface : Checking if MyTask(name=Bob) is complete
+2023-04-28 18:37:30,539 DEBUG luigi-interface : Checking if MyTask(name=Bob) is complete
+2023-04-28 18:37:30,541 INFO luigi-interface : Informed scheduler that task   MyTask_Bob_cfadfe6bb7   has status   DONE
+2023-04-28 18:37:30,541 INFO luigi-interface : Informed scheduler that task   MyTask_Bob_cfadfe6bb7   has status   DONE
+2023-04-28 18:37:30,541 INFO luigi-interface : Done scheduling tasks
+2023-04-28 18:37:30,541 INFO luigi-interface : Done scheduling tasks
+2023-04-28 18:37:30,541 INFO luigi-interface : Running Worker with 1 processes
+2023-04-28 18:37:30,541 INFO luigi-interface : Running Worker with 1 processes
+2023-04-28 18:37:30,541 DEBUG luigi-interface : Asking scheduler for work...
+2023-04-28 18:37:30,541 DEBUG luigi-interface : Asking scheduler for work...
+2023-04-28 18:37:30,541 DEBUG luigi.scheduler : Starting pruning of task graph
+2023-04-28 18:37:30,541 DEBUG luigi.scheduler : Done pruning task graph
+2023-04-28 18:37:30,542 DEBUG luigi-interface : Done
+2023-04-28 18:37:30,542 DEBUG luigi-interface : Done
+2023-04-28 18:37:30,542 DEBUG luigi-interface : There are no more tasks to run at this time
+2023-04-28 18:37:30,542 DEBUG luigi-interface : There are no more tasks to run at this time
+2023-04-28 18:37:30,542 INFO luigi-interface : Worker Worker(salt=7609729963, workers=1, host=192-168-0-188.rdsnet.ro, username=romulus, pid=98891) was stopped. Shutting down Keep-Alive thread
+2023-04-28 18:37:30,542 INFO luigi-interface : Worker Worker(salt=7609729963, workers=1, host=192-168-0-188.rdsnet.ro, username=romulus, pid=98891) was stopped. Shutting down Keep-Alive thread
+2023-04-28 18:37:30,543 INFO luigi-interface : 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 complete ones were encountered:
+    - 1 MyTask(name=Bob)
+
+Did not run any tasks
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2023-04-28 18:37:30,543 INFO luigi-interface : 
+===== Luigi Execution Summary =====
+
+Scheduled 1 tasks of which:
+* 1 complete ones were encountered:
+    - 1 MyTask(name=Bob)
+
+Did not run any tasks
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+2023-04-28 18:37:30,545 INFO werkzeug : 127.0.0.1 - - [28/Apr/2023 18:37:30] "GET /run-task?name=Bob HTTP/1.1" 200 -
+2023-04-28 18:38:04,645 INFO werkzeug : 127.0.0.1 - - [28/Apr/2023 18:38:04] "GET / HTTP/1.1" 200 -

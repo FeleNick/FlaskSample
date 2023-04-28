@@ -1,0 +1,5 @@
+pipdeptree==2.2.1
+pycrypto==2.6.1
+pycryptodome==3.17
+Flask==2.1.2
+Luigi==3.2.1
